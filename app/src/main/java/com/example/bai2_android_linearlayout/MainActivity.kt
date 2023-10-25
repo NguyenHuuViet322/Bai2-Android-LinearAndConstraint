@@ -18,10 +18,10 @@ import com.example.bai2_android_linearlayout.ui.theme.Bai2AndroidLinearLayoutThe
 import java.util.Calendar
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding : MainActivityLinearBinding
+    private lateinit var binding : MainActivityConstraintBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = MainActivityLinearBinding.inflate(layoutInflater)
+        binding = MainActivityConstraintBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.selectDate.setOnClickListener {
